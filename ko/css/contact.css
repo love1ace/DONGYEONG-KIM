@@ -1,0 +1,143 @@
+@font-face {
+  font-family: 'TAEBAEKmilkyway';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2310@1.0/TAEBAEKmilkyway.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  --text-color: #000000;
+  --background-color: #ffffff;
+  --secondary-text-color: #4d4d4d;
+  --hr-color: #818181;
+  --hover-color: #f1f1f1;
+}
+
+* {
+  font-family: 'TAEBAEKmilkyway', sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:visited {
+  color: inherit;
+}
+
+u {
+  text-decoration-color: rgb(102, 102, 102);
+  text-underline-offset: 5px;
+  text-decoration-thickness: 1px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ion-icon {
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+ion-icon:hover {
+  background-color: var(--hover-color);
+}
+
+main {
+  width: 700px;
+  padding: 50px 0;
+}
+
+section {
+  margin: 40px 0;
+}
+
+hr {
+  border: 1px solid #acacac;
+}
+
+.main-about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-about p {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--text-color);
+}
+
+.main-about ion-icon {
+  width: 18px;
+  height: 18px;
+  padding: 6px;
+}
+
+.main-contact {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+
+}
+
+.main-contact a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.main-contact p {
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  color: var(--text-color);
+}
+
+.main-contact ion-icon {
+  width: 16px;
+  height: 16px;
+  padding: 6px;
+}
+
+
+.main-contact a:hover p {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+body.dark-mode {
+  --text-color: #ffffff;
+  --background-color: #000000;
+  --secondary-text-color: #b3b3b3;
+  --hr-color: #1e1e1e;
+  --hover-color: #2d2d2d;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+main section:not(:first-of-type),
+main hr {
+  animation: fadeIn 0.6s ease-out forwards;
+}
