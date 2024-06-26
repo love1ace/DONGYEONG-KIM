@@ -1,6 +1,6 @@
 # DONGYEONG KIM
 
-This project is a personal portfolio website built using basic HTML, CSS, JavaScript.
+This project is a personal portfolio website built using basic HTML, CSS, JavaScript
 
 ## Hosting
 
