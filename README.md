@@ -7,7 +7,7 @@ This project is a personal portfolio website built using basic HTML, CSS, JavaSc
 The website is hosted on AWS using the following services:
 - **S3** for storage
 - **CloudFront** for content delivery
-- **Route 53** for domain management
+- **Route 53** for domain management 
  
 ## Visit My Website
 
