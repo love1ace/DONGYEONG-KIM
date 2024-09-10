@@ -11,4 +11,4 @@ The website is hosted on AWS using the following services:
  
 ## Visit My Website 
 
-[Click here to visit DONGYEONG KIM]([https://dongyeongkim.com](https://love1ace.github.io/DONGYEONG-KIM/))
+[Click here to visit DONGYEONG KIM](https://love1ace.github.io/DONGYEONG-KIM/)
